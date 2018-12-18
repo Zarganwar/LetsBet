@@ -1,0 +1,23 @@
+{
+  "name": "zarganwar/lets-bet",
+  "authors": [
+    {
+      "name": "Martin Jirásek"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zarganwar\\LetsBet\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">= 7.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "nette/utils": "^2.5"
+  },
+  "require-dev": {
+    "tracy/tracy": "^2.5"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
